@@ -87,6 +87,15 @@ public class Student implements Serializable {
 
 ## 3.2 Hessian序列化
 
+# 4 接口和抽象类
+
+共同点：都不能被实例化
+不同点有多个：
+1. 接口没有实现方法，抽象类可以有抽象方法也可以有实现方法。
+2. 接口的方法访问修饰符为public类型，属性访问修饰符为public static final类型。
+3. 一个类可以实现多个接口，但是支能继承一个抽象类。
+4. 抽象类被继承时体现的是is-a关系;接口在被实现时候体现的是can-do关系。
+
 # 2.ArrayList和LinkedList区别
 
 ## 底层结构
