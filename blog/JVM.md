@@ -9,7 +9,9 @@
 
 ## 1.2 双亲委派模型
 &emsp;&emsp;双亲委派模型的基本描述是：如果一个类加载器收到类加载的请求，它首先不会尝试加载它，而是把请求传给父类加载器去完成，最终传到启动类加载器。当父类加载器反馈无法加载此类时，子类加载器才尝试自己去加载。
+
 <img src="https://img-blog.csdn.net/20180402141430859?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3poYW5naGFubHVu/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" width="50%" height="50%">
+
 上述图片中有几个类加载器，具体如下：
 1.启动类加载器：负责加载存放JAVA_HOME\lib目录中的类
 2.扩展类加载器：负责加载存放JAVA_HOME\lib\etc目录中的类
