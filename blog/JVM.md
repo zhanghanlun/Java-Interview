@@ -13,9 +13,9 @@
 <img src="https://img-blog.csdn.net/20180402141430859?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3poYW5naGFubHVu/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" width="50%" height="50%">
 
 上述图片中有几个类加载器，具体如下：
-1.启动类加载器：负责加载存放JAVA_HOME\lib目录中的类
-2.扩展类加载器：负责加载存放JAVA_HOME\lib\etc目录中的类
-3.系统类加载器：负责加载用户类路径上所指定的类库
+- 启动类加载器：负责加载存放JAVA_HOME\lib目录中的类
+- 扩展类加载器：负责加载存放JAVA_HOME\lib\etc目录中的类
+- 系统类加载器：负责加载用户类路径上所指定的类库
 
 # 2. 内存分配
 
