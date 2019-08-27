@@ -46,9 +46,10 @@ public class Singleton {
  ## 2.2、线程池
  **ThreadPoolExecutor**
  三种类型ThreadPoolExecutor如下：
- 1、FixedPoolExecutor ——固定线程数量的线程池
- 2、SingleThreadExecutor—— 只有一个线程的线程池
- 3、CachedThreadPool—— 根据实际情况调整线程数量的线程池
- 4、ScheduledThreadPool——可以定时执行
+ 
+- FixedPoolExecutor ——固定线程数量的线程池
+- SingleThreadExecutor—— 只有一个线程的线程池
+- CachedThreadPool—— 根据实际情况调整线程数量的线程池
+- ScheduledThreadPool——可以定时执行
 
  
