@@ -15,16 +15,16 @@
 
 # 4、Spring MVC
 
-<img src="https://img-blog.csdnimg.cn/20190901153443835.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3poYW5naGFubHVu,size_16,color_FFFFFF,t_70" width="80%" height="80%">
+<img src="https://img-blog.csdnimg.cn/20190901153443835.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3poYW5naGFubHVu,size_16,color_FFFFFF,t_70" width="60%" height="60%">
 
 **实现原理**
 
-1.浏览器发送HTTP请求到DispatcherServlet.
-2.DispatcherServlet通过HandlerMapping寻找处理器Controller
-3.调用对应的处理器Controller，进行业务请求逻辑处理
-4.返回ModelAndView处理结果
-5.通过ViewResolver来处理视图
-6.返回给浏览器进行渲染视图
+1. 浏览器发送HTTP请求到DispatcherServlet.
+2. DispatcherServlet通过HandlerMapping寻找处理器Controller
+3. 调用对应的处理器Controller，进行业务请求逻辑处理
+4. 返回ModelAndView处理结果
+5. 通过ViewResolver来处理视图
+6. 返回给浏览器进行渲染视图
 
 # 5、Spring Bean
 
