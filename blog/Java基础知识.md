@@ -96,7 +96,7 @@ public class Student implements Serializable {
 3. 一个类可以实现多个接口，但是支能继承一个抽象类。
 4. 抽象类被继承时体现的是is-a关系;接口在被实现时候体现的是can-do关系。
 
-# 2.ArrayList和LinkedList区别
+# 5.ArrayList和LinkedList区别
 
 ## 底层结构
 
@@ -108,7 +108,7 @@ public class Student implements Serializable {
 >* ArrayList随机存取 O(1),插入删除效率低
 >* LinkedList随机存取O(n)，插入删除效率高
 
-# 3.HashMap和ConcurrentHashMap
+# 6.HashMap和ConcurrentHashMap
 ## hashMap
 
  1. HashMap在Java 8中底层结构升级了，由**数组+链表**变成了**数组+链表或红黑树**组成
@@ -119,3 +119,32 @@ public class Student implements Serializable {
 
  1. ConcurrentHashMap在Java 8的底层结构也升级了，有**segment数组+链表**变成了**数组+链表或红黑树**组成
  2. 在Java 8 其并发性由 **CAS + synchronized** 来保证
+
+# 7.常量、静态变量、局部变量、静态变量、常量
+## 7.1 变量
+通常说的变量，就是将对象的状态存储到字段中
+```java
+int a = 10;
+```
+## 7.2 静态变量
+类成员，属于类不属于某一个实例对象
+```java
+static int a = 10;
+```
+## 7.3常量
+不可改变的量
+```
+final int a = 10;
+```
+## 7.4静态常量
+static final修饰的变量，属于类不可变
+```java
+static final int a = 10;
+```
+## 7.5 局部变量
+有局部作用域的变量，这样的变量只能由声明它的函数或块中访问。如下面的例子所示，变量a只在get方法内部起作用，为局部变量
+```java
+public void get(){
+	int a = 10;
+}
+```
